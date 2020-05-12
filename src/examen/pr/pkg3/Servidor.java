@@ -24,7 +24,7 @@ public class Servidor {
             
         mensaje = in.readUTF();
 
-        System.out.println("Recibiendo mensaje: "+mensaje);
+        System.out.println("Información del Cliente: "+mensaje);
 
         socket.close();
      }

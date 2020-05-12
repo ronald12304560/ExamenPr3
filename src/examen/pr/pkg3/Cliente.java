@@ -1,9 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package examen.pr.pkg3;
+
+/**
+ *
+ * @author ADVANCE
+ */
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -12,10 +12,7 @@ import java.net.Socket;
 import java.text.ParseException;
 import java.util.Scanner;
 
-/**
- *
- * @author ADVANCE
- */
+
 public class Cliente {
     public static void main(String[] args) throws ParseException {
         Scanner sc = new Scanner(System.in);
